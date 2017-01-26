@@ -1,0 +1,64 @@
+/* Stephonce R. Morris | 2014 */
+
+html { box-sizing: border-box; }
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body{
+    background-color:#F7FBFC;
+}
+section {
+	position: absolute;
+	bottom: 0pt;
+	left: 1%;
+}
+
+.name {
+	font-size: 5em;
+	font-family: 'Fjalla One', sans-serif;
+	color: #FF9CB1;
+	text-decoration: none;
+	display: block;
+	text-transform: uppercase;
+	margin-bottom: 0px;
+
+}
+
+h1 {
+
+
+	text-decoration: none;
+	display: block;
+    margin-top: -10px;
+	font-family: 'Raleway', sans-serif;
+
+}
+
+.subhead1{
+
+    color:#8D99AE;
+    font-size: 2.5em;
+    text-transform: uppercase;
+}
+
+.subhead2{
+    color: #FF9CB1;
+    font-size:2em;
+    font-family: 'Farsan', cursive;
+
+        text-align: left;
+
+}
+
+a {
+	opacity: .5;
+	-webkit-transition: opacity .25s ease-in-out;
+		 -moz-transition: opacity .25s ease-in-out;
+					transition: opacity .25s ease-in-out;
+}
+
+a:hover {
+	opacity: 0.3;
+}
